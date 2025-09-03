@@ -86,7 +86,7 @@ app.get("/send-fcm", async (req, res) => {
     try {
         const response = await admin.messaging().send(message);
         console.log("✅ FCM Notification sent:", response);
-        res.status(200).send("Notification sent: " + JSON.stringify(response));
+        res.status(200).send("Notification sent Successfully");
     } catch (err) {
         console.error(err);
         res.status(500).send("Error sending FCM push: " + err.message);

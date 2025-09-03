@@ -194,3 +194,14 @@ export function register() {
 - Backend uses proper APIs.  
 
 ---
+
+
+### Output Images
+
+![Home](./public/Home.png)
+
+![Notification](./public/notification.png)
+
+![safari](./public/Safari.png)
+
+![chrome](./public/chrome.png)
