@@ -66,7 +66,7 @@ const App = () => {
         // ✅ ab tum control se notification show kar rahe ho
         new Notification(payload.data.title, {
           body: payload.data.body,
-          icon: "/logo.png",
+          icon: "../public/logo192.png",
         });
       });
     }
